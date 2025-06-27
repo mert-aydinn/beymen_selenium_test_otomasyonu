@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Beymen Test Suite" verbose="2">
+    <test name="Beymen Search Tests">
+        <classes>
+            <class name="com.beymen.tests.BeymenSearchTest"/>
+        </classes>
+    </test>
+</suite> 

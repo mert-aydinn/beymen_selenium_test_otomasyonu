@@ -1,0 +1,28 @@
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Build output
+target/
+build/
+out/
+
+# Log files
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+dependency-reduced-pom.xml
+
+# Test output
+test-output/
+screenshots/
+reports/ 
