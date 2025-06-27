@@ -23,7 +23,9 @@ public abstract class BasePage {
     protected WebDriverWait wait;
     protected JavascriptExecutor jsExecutor;
     protected static final Logger logger = LogManager.getLogger(BasePage.class);
-    private static final int DEFAULT_TIMEOUT = 10;
+    
+    // Default timeout - reduced from 10 to 8 seconds
+    private static final int DEFAULT_TIMEOUT = 8;
     
     /**
      * Constructor for BasePage
